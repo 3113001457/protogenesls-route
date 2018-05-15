@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生子路由</title>
+    <link rel="stylesheet" href="../css/resize.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/echarts.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 侧边栏 -->
+        <div class="sidbar">
+            <div class="data">
+                <p class="con_stata">内容状态</p>
+                <!-- 数据统计 -->
+                <div class="con_data">
+                    <p>浏览量：<span>0</span></p>
+                    <p>查看统计分析</p>
+                </div>
+            </div>
+            <!-- 已选内容 -->
+            <div class="choice">
+                <p class="choice_btn">已选内容</p>
+                <div class="choice_con">
+                    <p><span>3</span>个平台</p>
+                    <p><span>24</span>个直播间</p>
+                </div>
+            </div>
+            <!-- 内容 -->
+            <div class="platform">
+                <div>
+                    <p><span>A平台</span>：</p>
+                    <p>浏览量：<span>126454</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="contain">
+            <div class="data_all">
+                <p class="title">
+                    数据统计
+                </p>
+                <div class="data_con">
+                    <table>
+                        <tr>
+                            <td>名称</td>
+                            <td>数据</td>
+                        </tr>
+                        <tr>
+                            <td>今日访客</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>昨日访客</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>本周累积</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>本月累积</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                    <div class="user_vis">
+                        <p>用户访客量</p>
+                        <div>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="system">
+                <p class="title">
+                    系统信息
+                </p>
+                <div class="system_con">
+                    <img src="../images/not_data.png" alt="">
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="echart">
+                <p class="title">
+                    最新24小时流量趋势
+                </p>
+                <div id="main" style="width: 100%;height: 490px"></div>
+                <p class="echart_y">日总流量（万）</p>
+                <p class="echart_x">时间</p>
+                <div class="echart_icon">
+                    <div>
+                        <p></p>
+                        <span>浏览量</span>
+                    </div>
+                    <div>
+                        <p></p>
+                        <span>点击量</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <div class="clear"></div>
+    </div>
+</body>
+<script src="../js/home.js"></script>
+</html>

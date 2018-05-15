@@ -1,0 +1,93 @@
+.wrap{
+    width: 100%;
+    padding: 24px 0 0 23px;
+    box-sizing: border-box;
+    height: 1800px;
+    background: #f0f4f7
+}
+.wrap>.title{
+    font-size: 16px;
+    color: #7e7e7e
+}
+.contain{
+    width: 99%;
+    height: 756px;
+    background: white;
+    margin-top: 20px;
+    box-shadow:0 0 10px 3px #d4d5d7;
+}
+.contain .con_title{
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee
+}
+.title_list{
+    float: left;
+}
+.title_list li{
+    float: left;
+    width: 80px;
+    height: 37px;
+    border-right: 1px solid #d2d2d2;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+    color: #9d9999;
+    margin-top: 11px
+}
+.title_list_se{
+    float: right;
+}
+.title_list_se li{
+    float: left;
+    width: 80px;
+    height: 37px;
+    border-right: 1px solid #d2d2d2;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+    color: #9d9999;
+    margin-top: 11px
+}
+table{
+    width: 95%;
+    margin-top: 11px;
+    margin-left: 34px;
+    font-size: 14px
+}
+table tr th{
+    width: 6%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    border: 1px solid #e5e5e5;
+    font-weight: normal;
+}
+table tr th:nth-child(3){
+    width: 16%
+}
+table tr th:nth-child(4){
+    width:6%
+}
+table tr th:nth-child(6){
+    width:14%
+}
+table tr th:nth-child(7){
+    width:14%
+}
+table tr td{
+    width: 6%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    border: 1px solid #e5e5e5;
+    font-weight: normal;
+}
+tr button{
+    border: none;
+    width: 60px;
+    height: 22px;
+    background: #f1565e;
+    color: white;
+    outline: none
+}

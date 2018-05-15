@@ -1,0 +1,53 @@
+/*顶部信息*/
+.header{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    min-width: 1200px;
+    background: #32323A;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.user_name{
+    line-height: 43px;
+    color: #D8393B;
+    font-size: 16px;
+    float: left;
+    margin-left: 20px
+}
+.back{
+    float: right;
+    line-height: 43px;
+    color: white;
+    font-size: 16px;
+    margin-right: 102px
+}
+/*导航*/
+.nav{
+    width: 100%;
+    min-width:1200px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+.nav li{
+    float: left;
+    width: 33.33%;
+    min-width: 400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.nav li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+iframe{
+    margin-top: -2px;
+    width: 100%;
+    height: 1800px;
+    display: block;
+    min-width: 1200px
+}
